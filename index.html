@@ -11,8 +11,74 @@
 </head>
 
 <header>
+  <nav id=navbar>
+    <a href="#" class="logo">BRYAN KIM</div>
+    <div class="nav-right">
+        <a href="#about">ABOUT</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT ME</a>
+    </div>
+  </nav>
+  
+  <section id="intro">
+    <div class="intro-intro">Hi, my name is</div>
+    <div class="intro-Name">Bryan Kim.</div>
+    <div class="intro-desc">For me, the fun never stops when learning.</div>
+    
+  </section>
+
 </header>
+<!-- Start of body -->
 
 <body>
+  <!-- About Section -->
+<section id="about">
+  <div id="wrapper">
+    <div class="section-Heading">
+      About Me
+    </div>
+    <div class = "innerWrap">
+      <div class = "about-desc">
+        <p>Welcome! I'm Bryan; a video game enthusiast, an aspiring home cook, and a very amateur photographer.</p>
+        <p>Oh, I also attend the University of Virginia as a Third Year studying for a Bachelor's of Science in Computer Science, <br>taking a wide variety of classes on topics that interest me. </p>
+        <p>Some courses I've really enjoyed or am taking now are Machine Learning, Advanced Software Development, Databases, AI and Intro to Cyber-Security. </p>
+        <p>In addition to being a huge supporter for Agile development cycles, I see myself as a fast and efficient learner and always strives to produce the best work possible, no matter the situation.</p>
+      </div>
+      <div class = "about-picture">
+        <div class = wrapper>
+          <img src="images/sunrise.jpeg">
+        </div>    
+      </div> 
+    </div>
+  </div>
+
+
+</section>
+
+<section id="experience">
+
+</section>
+<section id="projects">
+
+</section>
+<section id="contact">
+
+</section>
+<section id="footer">
+
+</section>
 </body>
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-70px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  </script>
 </html>

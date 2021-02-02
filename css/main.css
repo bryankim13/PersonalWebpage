@@ -1,0 +1,50 @@
+#navbar{
+    background-color: aquamarine;
+    position: fixed;
+    top:0;
+    width:100%;
+    text-align:center;
+    align-self:center;
+    
+    transition: top 0.3s;
+}
+#navbar a{
+    font-weight:500;
+    padding: 20px;
+    /* margin-left:60px; */
+    
+}
+.logo{
+    top:50px;
+    left: 5%;
+    float:left;
+    margin-left:15%;
+
+}
+.nav-right{
+    float:right;
+    right:5%;
+    margin-right:15%;
+
+}
+.nav-right a{
+    /* margin-right:60px; */
+    display : contents;
+}
+.nav-right a:nth-last-child(4){
+    margin-right:60px;
+    display : inline-block;
+}
+.nav-right a:nth-last-child(3){
+    margin-right:60px;
+    display : inline-block;
+}
+.nav-right a:nth-last-child(2){
+    margin-right:60px;
+    display : inline-block;
+}
+
+#intro{
+    height:100vh;
+    width:100vw;
+}

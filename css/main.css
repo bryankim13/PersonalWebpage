@@ -95,7 +95,7 @@ Intro Settings
 /* 
 Motion settings
  */
-
+/* Using animate.css, found here : https://animate.style */
 .delay-about{
      animation-delay: .1s;
 }

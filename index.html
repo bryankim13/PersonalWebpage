@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <!-- From the initial experience with web development I had from my CivicConnect project, I was motivated to build my own personal site for the fun of it. -->
 
-<html lang = "en">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bryan Kim</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <header>
   <nav id=navbar>
     <a href="#" class="logo animate__animated animate__fadeInDown delay-logo">BRYAN KIM</div>
-    <div class="nav-right">
+      <div class="nav-right">
         <a class="animate__animated animate__fadeInDown delay-about" href="#about">ABOUT</a>
         <a class="animate__animated animate__fadeInDown delay-exp" href="#experience">EXPERIENCE</a>
         <a class="animate__animated animate__fadeInDown delay-proj" href="#projects">PROJECTS</a>
         <a class="animate__animated animate__fadeInDown delay-cont" href="#contact">CONTACT ME</a>
-    </div>
+      </div>
   </nav>
-  
+
   <section id="intro">
     <div class="intro-intro animate__animated animate__fadeInUp delay-int">Hi, my name is</div>
     <div class="intro-Name  animate__animated animate__fadeInUp delay-name">Bryan Kim.</div>
-    <div class="intro-desc animate__animated animate__fadeInUp delay-desc">An Engineer by Day, Gamer by night.</div>
-    
+    <div class="intro-desc animate__animated animate__fadeInUp delay-desc">Engineer by Day, Gamer by Night.</div>
+
   </section>
 
 </header>
@@ -34,46 +36,87 @@
 
 <body>
   <!-- About Section -->
-<section id="about">
-  <div id="wrapper">
-    <h1 class="section-Heading">
-      About Me
-    </h1>
-    <div class = "innerWrap">
-      <div class = "about-desc">
-        <p>Welcome! I'm Bryan; a video game enthusiast, an aspiring home cook, and a very amateur photographer.</p>
-        <p>Oh, I also attend the University of Virginia as a Third Year studying for a Bachelor's of Science in Computer Science, <br>taking a wide variety of classes on topics that interest me. </p>
-        <p>Some courses I've really enjoyed or am taking now are Machine Learning, Advanced Software Development, Databases, AI and Intro to Cyber-Security. </p>
-        <p>In addition to being a huge supporter for Agile development cycles, I see myself as a fast and efficient learner and always strives to produce the best work possible, no matter the situation.</p>
+  <section id="about">
+    <div id="wrapper">
+      <h1 class="section-Heading">
+        About Me
+      </h1>
+      <div class="innerWrap">
+        <div class="about-desc">
+          <p>Welcome! In addition to being a video game enthusiast, an aspiring home cook, and a very amateur
+            photographer, Im also an aspiring Software Engineer and a Third year at the University of Virginia studying
+            CS with a 3.62 GPA.</p>
+          <!-- <p>Oh, I also attend the University of Virginia as a Third Year studying for a Bachelor's of Science in Computer Science, <br>taking a wide variety of classes on topics that interest me. </p> -->
+          <p>Some courses I've really enjoyed or am taking now are Machine Learning, Advanced Software Development,
+            Databases, AI and Intro to Cyber-Security. </p>
+          <p>In addition to being a huge supporter for Agile development cycles, I see myself as a fast and efficient
+            learner and always strives to produce the best work possible, no matter the situation.</p>
+        </div>
+        <div class="about-picture">
+          <img id="profPic" src="images/pic.jpeg">
+          <div class="borderpic"></div>
+        </div>
       </div>
-      <div class = "about-picture">
-        <!-- <div class = wrapper>
-          <img src="images/sunrise.jpeg">
-        </div>     -->
-      </div> 
+
+    </div>
+
+  </section>
+
+  <div class="bottomSkills">
+    <div id="wrapper2">
+      <h2>Some Tech I've been working with...</h2>
+      <div class="skillList">
+        <div class="sBox">
+          <h3>Java</h3>
+        </div>
+        <div class="sBox">
+          <h3>Python</h3>
+        </div>
+        <div class="sBox">
+          <h3>C++</h3>
+        </div>
+        <div class="sBox">
+          <h3>Keras</h3>
+        </div>
+        <div class="sBox">
+          <h3>SKLearn</h3>
+        </div>
+        <div class="sBox">
+          <h3>Django Framework</h3>
+        </div>
+        <div class="sBox">
+          <h3>AWS</h3>
+        </div>
+        <div class="sBox">
+          <h3>Apache NIFI</h3>
+        </div>
+        <div class="sBox">
+          <h3>Git</h3>
+        </div>
+        <div class="sBox">
+          <h3>Linux Systems</h3>
+        </div>
+      </div>
     </div>
   </div>
 
+  <section id="experience">
 
-</section>
+  </section>
+  <section id="projects">
 
-<section id="experience">
+  </section>
+  <section id="contact">
 
-</section>
-<section id="projects">
+  </section>
+  <section id="footer">
 
-</section>
-<section id="contact">
-
-</section>
-<section id="footer">
-
-</section>
+  </section>
 </body>
 <script>
   var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("navbar").style.top = "0";
     } else {
@@ -81,5 +124,6 @@
     }
     prevScrollpos = currentScrollPos;
   }
-  </script>
+</script>
+
 </html>

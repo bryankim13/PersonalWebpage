@@ -1,11 +1,38 @@
+/* text settings */
+:root{
+    --main-yellow : #F6BD60;
+    --main-white : #F7EDE2;
+    --main-green : #84A59D;
+    --main-pink : #F5CAC3;
+    --main-blue : 	#c3eef5;
+}
+
+
+p{
+    color: var(--main-white);
+    font-size: 120%;
+}
+h1{
+    font-weight:500;
+    font-size:520%;
+    color:var(--main-pink);
+}
+
+h2{
+    font-weight:400;
+}
+h3{
+    font-weight:300;
+}
+
 /* 
 Nav Bar Settings
 */
 header{
-    background-color: #84A59D;
+    background-color: var(--main-green);
 }
 #navbar{
-    background-color: #84A59D;
+    background-color: var(--main-green);
     position: fixed;
     top: 3%;
     width:100%;
@@ -15,7 +42,7 @@ header{
     transition: top 0.3s;
 }
 #navbar a{
-    font-weight:500;
+    font-weight:300;
     padding: 20px;
     /* margin-left:60px; */
     
@@ -25,20 +52,20 @@ header{
     left: 2%;
     float:left;
     margin-left:4%;
-    color:#F7EDE2;
+    color:var(--main-white);
 }
 .nav-right{
     float:right;
     right:2%;
     margin-right:4%;
-    color:#b5c5d0;
+    color:var(--main-green);
     font-size: 75%;
 }
 
 .nav-right a{
     /* margin-right:60px; */
     display : contents;
-    color:#F7EDE2;
+    color:var(--main-white);
 }
 
 .nav-right a:nth-last-child(4){
@@ -75,16 +102,16 @@ Intro Settings
     margin-right: 38%;
     margin-top: -5%;
     
-    color:#F6BD60;
+    color:var(--main-yellow);
     font-size: 200%;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .intro-Name{
-    font-size: 600%;
+    font-size: 800%;
     margin-top: -2%;
     margin-right: 24%;
-    color:#F5CAC3;
+    color:var(--main-pink);
 
 }
 
@@ -92,38 +119,99 @@ Intro Settings
     margin-top: 2.5%;
     font-size: 300%;
     margin-right: 1%;
-    color:#F7EDE2;
+    color:var(--main-white);
 }
 
 body{
-    background-color: #0b4064;
+    background-color: var(--main-green);
 
 }
+
 /* 
 About section
 */
 #about{
-    min-height:100vh;
-    width:80vw;
+    margin-top:8%;
     display: flex;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     flex-direction: column;
     margin-left: 10%;
 }
 
 #wrapper{
-    margin-top : -30%;
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 10%;
 }
-.section-Heading{
-    font-weight:500;
-    color:#f02da2;
+#wrapper2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-Heading::after{
+    content: "";
+    display: block;
+    width: 670px;
+    height: 1px;
+    color:var(--main-yellow);
+    border: 2px solid var(--main-yellow);
+
+
 }
 
 .innerWrap{
-
+justify-content: left;
+display: flex;
+}
+.about_desc {
+    flex:1;
+    float: left;
 }
 
+.about-picture{
+    /* float :right; */
+    margin-left:5%;
+    max-width:500px;
+}
+
+#profPic {
+    float:right;
+    max-width:100%;
+    max-height:100%;
+    position:relative;
+
+  }
+
+.borderpic{
+    height:380px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top:20px;
+    /* margin-top:-10px; */
+    /* position: absolute; */
+    border: 5px solid var(--main-yellow);
+}
+
+.bottomSkills{
+    margin : 0 auto;
+    margin-left:2%;
+    margin-top: 2.5%;
+    margin-bottom: 15%;
+}
+
+.skillList{
+    display:grid;
+}
+.sBox{
+    margin:10px 5px;
+    text-align:center;
+    width:400px;
+    height:80px;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(147, 199, 165, 0.47); 
+box-shadow: 0px 0px 5px 5px rgba(88, 88, 88, 0.47);
+
+}
 
 /* 
 Motion settings

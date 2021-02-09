@@ -1,10 +1,9 @@
 /* text settings */
 :root{
-    --main-yellow : #F6BD60;
+    --main-yellow : #4fb9a1;
     --main-white : #F7EDE2;
-    --main-green : #84A59D;
-    --main-pink : #F5CAC3;
-    --main-blue : 	#c3eef5;
+    --main-blue : #54889e;
+    --main-pink : #64ffda;
 }
 
 
@@ -20,16 +19,19 @@ h1{
 
 h2{
     font-weight:400;
+    color: var(--main-pink);
 }
 h3{
     font-weight:300;
+    color: var(--main-white);
+
 }
 
 /* 
 Nav Bar Settings
 */
 header{
-    background-color: var(--main-green);
+    background-color: var(--main-blue);
 }
 #navbar{
     background-color: var(--main-green);
@@ -58,7 +60,7 @@ header{
     float:right;
     right:2%;
     margin-right:4%;
-    color:var(--main-green);
+    color:var(--main-blue);
     font-size: 75%;
 }
 
@@ -66,6 +68,9 @@ header{
     /* margin-right:60px; */
     display : contents;
     color:var(--main-white);
+}
+.nav-right a :hover{
+    background-color: #8cafa6;
 }
 
 .nav-right a:nth-last-child(4){
@@ -123,7 +128,7 @@ Intro Settings
 }
 
 body{
-    background-color: var(--main-green);
+    background-color: var(--main-blue);
 
 }
 
@@ -180,11 +185,10 @@ display: flex;
     max-width:100%;
     max-height:100%;
     position:relative;
-
   }
 
 .borderpic{
-    height:380px;
+    height:500px;
     width: 500px;
     margin-left: 20px;
     margin-top:20px;
@@ -196,22 +200,60 @@ display: flex;
 .bottomSkills{
     margin : 0 auto;
     margin-left:2%;
-    margin-top: 2.5%;
+    /* margin-top: -2.5%; */
     margin-bottom: 15%;
 }
 
 .skillList{
     display:grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
 }
 .sBox{
     margin:10px 5px;
     text-align:center;
-    width:400px;
-    height:80px;
+    width:240px;
+    height:40px;
     -webkit-box-shadow: 0px 0px 5px 5px rgba(147, 199, 165, 0.47); 
-box-shadow: 0px 0px 5px 5px rgba(88, 88, 88, 0.47);
-
+    box-shadow: 0px 0px 5px 5px rgba(88, 88, 88, 0.47);
+    transition-duration: .5s;
 }
+.sBox:hover{
+    background-color: var(--main-yellow); 
+}
+
+#experience{
+    margin-top:20%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.jobs{
+    margin-top:10%;
+
+    display: flex;
+    /* justify-content: left; */
+}
+.jobpicture{
+       margin-left:-5%;
+       max-width:500px;
+       float:left;
+}
+#perspectaPic{
+    float:left;
+    max-width:100%;
+    max-height:100%;
+    position:relative;
+}
+
+.jobDesc{
+margin-right:5%;
+    flex:1;
+}
+
 
 /* 
 Motion settings

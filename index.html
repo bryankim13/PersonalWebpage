@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -38,10 +39,10 @@
   <!-- About Section -->
   <section id="about">
     <div id="wrapper">
-      <h1 class="section-Heading">
+      <h1 data-aos="fade-up" data-aos-duration="1800">
         About Me
       </h1>
-      <div class="innerWrap">
+      <div class="innerWrap" data-aos="fade-up" data-aos-duration="1900">
         <div class="about-desc">
           <p>Welcome! In addition to being a video game enthusiast, an aspiring home cook, and a very amateur
             photographer, Im also an aspiring Software Engineer and a Third year at the University of Virginia studying
@@ -53,7 +54,7 @@
             learner and always strives to produce the best work possible, no matter the situation.</p>
         </div>
         <div class="about-picture">
-          <img id="profPic" src="images/pic.jpeg">
+          <img id="profPic" src="images/pic.jpg">
           <div class="borderpic"></div>
         </div>
       </div>
@@ -64,45 +65,68 @@
 
   <div class="bottomSkills">
     <div id="wrapper2">
-      <h2>Some Tech I've been working with...</h2>
+      <h2>Some tech I've been working with...</h2>
       <div class="skillList">
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="1500">
           <h3>Java</h3>
         </div>
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="1600">
           <h3>Python</h3>
         </div>
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="1700">
           <h3>C++</h3>
         </div>
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="1800">
           <h3>Keras</h3>
         </div>
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="1900">
           <h3>SKLearn</h3>
         </div>
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="2000">
           <h3>Django Framework</h3>
         </div>
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="2100">
           <h3>AWS</h3>
         </div>
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="2200">
           <h3>Apache NIFI</h3>
         </div>
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="2300">
           <h3>Git</h3>
         </div>
-        <div class="sBox">
+        <div class="sBox" data-aos="fade-up" data-aos-duration="2400">
           <h3>Linux Systems</h3>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- Experience Section -->
   <section id="experience">
+    <div id="wrapper">
+      <h1 data-aos="fade-up" data-aos-duration="1600">
+        Experience
+      </h1>
+        <div class="jobs">
+          <div class="jobpicture">
+            <img id="perspectaPic" src="images/perspecta.jpg">
+          </div>
+          <div class="jobDesc">
+            <h2 class="jobTitle">Data Science Intern</h2>
+            <div class="date">
+              <p>June 2020 - August 2020</p>
+            </div>
+            <div class=job1Desc>
+              fuhbesiofhesuoifihejosfhj fhuiesohbf eisofh niesonfekslfn
+            </div>
+          </div>
+        </div>
 
+
+
+    </div>
   </section>
+
   <section id="projects">
 
   </section>
@@ -112,6 +136,11 @@
   <section id="footer">
 
   </section>
+  <!-- Using AOS js, found here : https://michalsnik.github.io/aos/ -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 <script>
   var prevScrollpos = window.pageYOffset;

@@ -1,4 +1,8 @@
 /* text settings */
+html {
+    scroll-behavior: smooth;
+  }
+  
 :root{
     --main-yellow : #57ccb1;
     --main-white : #F7EDE2;

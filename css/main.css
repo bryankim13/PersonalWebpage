@@ -96,6 +96,13 @@ header{
     display : inline-block;
 }
 
+/* Socials */
+.socials{
+    bottom : 10vh;
+    left : 2vw;
+    position:fixed;
+}
+
 /* 
 Intro Settings
 */

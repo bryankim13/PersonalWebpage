@@ -29,6 +29,12 @@
 .fa-spotify:hover{
     color:#64ffda;
 }
+.fa-youtube{
+    color:white;
+}
+.fa-youtube:hover{
+    color:#64ffda;
+}
 .socList{
     margin: 10px 0;
 }

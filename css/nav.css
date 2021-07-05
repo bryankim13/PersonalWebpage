@@ -1,0 +1,63 @@
+/* 
+Nav Bar Settings
+*/
+header{
+    background-color: var(--main-blue);
+}
+#navbar{
+    background-color: var(--main-green);
+    position: fixed;
+    top: 3%;
+    width:100%;
+    text-align:center;
+    align-self:center;
+    
+    transition: top 0.3s;
+}
+#navbar a{
+    font-weight:400;
+    padding: 20px;
+    /* margin-left:60px; */
+    
+}
+.logo{
+    top:50px;
+    left: 2%;
+    float:left;
+    margin-left:4%;
+    color:var(--main-white);
+}
+.nav-right{
+    float:right;
+    right:2%;
+    margin-right:4%;
+    color:var(--main-blue);
+    font-size: 75%;
+}
+
+.nav-right a{
+    /* margin-right:60px; */
+    font-weight:400;
+    font-size:small;
+    display : contents;
+    color:var(--main-white);
+}
+.nav-right a :hover{
+    background-color: #8cafa6;
+}
+
+.nav-right a:nth-last-child(4){
+    margin-right:40px;
+    display : inline-block;
+}
+.nav-right a:nth-last-child(3){
+    margin-right:40px;
+    display : inline-block;
+}
+.nav-right a:nth-last-child(2){
+    margin-right:40px;
+    display : inline-block;
+}
+.nav-right a:nth-last-child(1){
+    display : inline-block;
+}

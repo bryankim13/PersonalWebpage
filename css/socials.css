@@ -1,0 +1,34 @@
+.socials{
+    list-style-type :none;
+    bottom : 10vh;
+    left : 2vw;
+    position:fixed;
+}
+
+.fa-github{
+    color:white;
+}
+.fa-github:hover{
+    color:#64ffda;
+}
+.fa-linkedin-in{
+    color:white;
+}
+.fa-linkedin-in:hover{
+    color:#64ffda;
+}
+.fa-instagram{
+    color:white;
+}
+.fa-instagram:hover{
+    color:#64ffda;
+}
+.fa-spotify{
+    color:white;
+}
+.fa-spotify:hover{
+    color:#64ffda;
+}
+.socList{
+    margin: 10px 0;
+}

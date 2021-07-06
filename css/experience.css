@@ -3,7 +3,6 @@
     display: flex;
     text-align: left;
     justify-content: center;
-    flex-direction: column;
     margin-left: 10%;
     margin-top:5%;
 }
@@ -20,23 +19,19 @@
        margin-top: 8%;
 }
 .perspectaBorder{
-    height:240px;
-    width: 600px;
-    margin-top:-220px;
-    margin-left:20px;
-    /* position: absolute; */
+    height:200px;
+    width: 450px;
+    margin-top:-33%;
+    margin-left:5%;
     border: 5px solid var(--main-yellow);
 }
 #perspectaPic{
-    flex:1;
     max-width:85%;
-    position:relative;
 }
 
 .jobDesc{
 
     margin-left:6%;
-    flex:1;
 }
 
 .jobDesc ul{

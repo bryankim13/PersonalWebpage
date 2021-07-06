@@ -41,6 +41,12 @@
 .fa-link:hover{
     color:#64ffda;
 }
+.fa-paperclip{
+    color:white;
+}
+.fa-paperclip:hover{
+    color:#64ffda;
+}
 
 .socList{
     margin: 10px 0;

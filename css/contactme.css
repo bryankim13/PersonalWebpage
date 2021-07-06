@@ -1,8 +1,41 @@
+.parallax {
+    /* The image used */
+    text-align: center;
+    background-image: url(../images/sunrise.jpg);
+    /* Set a specific height */
+    min-height: 800px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 #contact{
+    min-height:40vh;
     margin-top:20%;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: top;
     flex-direction: column;
     margin-left: 10%;
+    margin-top:-25%;
+}
+
+.emailButton{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color:var(--main-pink);
+    border: 2px solid var(--main-yellow);
+    border-radius: 4px;
+    background-color: var(--main-blue);
+}
+.emailButton:hover{
+    background-color: #2e3e45;
+}
+
+.resumeBlock{
+    text-align: center;
 }

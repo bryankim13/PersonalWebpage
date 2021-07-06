@@ -1,0 +1,11 @@
+#footer{
+    display: flex;
+    text-align: center;
+    justify-content: bottom;
+    margin-top:-3%;
+}
+p1{
+    font-weight:200;
+    font-size:110%;
+    color:var(--main-white);
+}

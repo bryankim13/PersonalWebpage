@@ -16,6 +16,10 @@ p{
     color: var(--main-white);
     font-size: 120%;
 }
+p2{
+    color: var(--main-white);
+    font-size: 170%;
+}
 em{
     color: var(--main-pink);
 }
@@ -29,7 +33,6 @@ h1{
     font-size:520%;
     color:var(--main-pink);
 }
-
 h2{
     font-weight:400;
     color: var(--main-pink);
@@ -37,7 +40,11 @@ h2{
 h3{
     font-weight:300;
     color: var(--main-white);
-
+}
+h4{
+    font-weight:250;
+    font-size:275%;
+    color: var(--main-yellow);
 }
 
 /* 

@@ -46,6 +46,7 @@
   
   .container:hover .middle {
     opacity: 1;
+    z-index:1000;
   }
 
   .skillsUsed{

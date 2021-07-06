@@ -1,0 +1,72 @@
+.bottomSkills{
+    margin : 0 auto;
+    margin-left:2%;
+
+}
+.column-list {
+    columns: 340px;
+    text-align:center;
+    list-style-type :none;
+}
+.skill .skilltxt {
+    visibility: hidden;
+    width: 300px;
+    background-color: var(--main-skills);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+.skill:hover .skilltxt {
+    visibility: visible;
+}
+.skillpic{
+    width:200px;
+}
+.skillpic:hover{
+    color:#64ffda;
+}
+.fa-java{
+    color:white;
+}
+.fa-java:hover{
+    color:#64ffda;
+}
+.fa-python{
+    color:white;
+}
+.fa-python:hover{
+    color:#64ffda;
+}
+.fa-git{
+    color:white;
+}
+.fa-git:hover{
+    color:#64ffda;
+}
+.fa-aws{
+    color:white;
+}
+.fa-aws:hover{
+    color:#64ffda;
+}
+.fa-php{
+    color:white;
+}
+.fa-php:hover{
+    color:#64ffda;
+}
+.fa-linux{
+    color:white;
+}
+.fa-linux:hover{
+    color:#64ffda;
+}
+.fa-vuejs{
+    color:white;
+}
+.fa-vuejs:hover{
+    color:#64ffda;
+}

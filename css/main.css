@@ -6,8 +6,9 @@ html {
 :root{
     --main-yellow : #16f0bd;
     --main-white : #F7EDE2;
-    --main-blue : #54889e;
+    --main-blue : #4c6671;
     --main-pink : #64ffda;
+    --main-skills : #61858f;
 }
 
 
@@ -17,6 +18,11 @@ p{
 }
 em{
     color: var(--main-pink);
+}
+projTitle{
+    color: var(--main-pink);
+    font-size: 120%;
+    font-family:Helvetica;
 }
 h1{
     font-weight:500;
@@ -140,67 +146,6 @@ display: flex;
     /* margin-top:-10px; */
     /* position: absolute; */
     border: 5px solid var(--main-yellow);
-}
-
-.bottomSkills{
-    margin : 0 auto;
-    margin-left:2%;
-
-}
-
-.skillList{
-    display:grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto auto auto;
-}
-.sBox{
-    margin:10px 5px;
-    text-align:center;
-    width:240px;
-    height:40px;
-    -webkit-box-shadow: 0px 0px 5px 5px rgba(147, 199, 165, 0.47); 
-    box-shadow: 0px 0px 5px 5px rgba(88, 88, 88, 0.47);
-    transition-duration: .5s;
-}
-.sBox:hover{
-    background-color: var(--main-yellow); 
-}
-
-#experience{
-    margin-top:20%;
-    display: flex;
-    text-align: left;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 10%;
-}
-
-.jobs{
-    margin-top:8%;
-    display: flex;
-    /* justify-content: left; */
-}
-.jobpicture{
-       max-width:700px;
-       float:left;
-       margin-left: -50px;
-       margin-top: 8%;
-}
-#perspectaPic{
-    flex:1;
-    max-width:85%;
-    position:relative;
-}
-
-.jobDesc{
-
-    margin-left:6%;
-    flex:1;
-}
-
-.jobDesc ul{
-    list-style-type: square;
-    color: var(--main-yellow);
 }
 
 /* 

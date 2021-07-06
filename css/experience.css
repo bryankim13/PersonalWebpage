@@ -1,0 +1,44 @@
+#experience{
+    margin-top:20%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.jobs{
+    margin-top:8%;
+    display: flex;
+    /* justify-content: left; */
+}
+.jobpicture{
+       max-width:700px;
+       float:left;
+       margin-left: -50px;
+       margin-top: 8%;
+}
+.perspectaBorder{
+    height:240px;
+    width: 600px;
+    margin-top:-220px;
+    margin-left:20px;
+    /* position: absolute; */
+    border: 5px solid var(--main-yellow);
+}
+#perspectaPic{
+    flex:1;
+    max-width:85%;
+    position:relative;
+}
+
+.jobDesc{
+
+    margin-left:6%;
+    flex:1;
+}
+
+.jobDesc ul{
+    list-style-type: square;
+    color: var(--main-yellow);
+}

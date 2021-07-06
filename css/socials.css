@@ -35,6 +35,13 @@
 .fa-youtube:hover{
     color:#64ffda;
 }
+.fa-link{
+    color:white;
+}
+.fa-link:hover{
+    color:#64ffda;
+}
+
 .socList{
     margin: 10px 0;
 }

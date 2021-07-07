@@ -14,20 +14,20 @@ html {
 
 @font-face {
     font-family: Vilane;
-    src: url('../fonts/VilaneRegular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/VilaneRegular.woff2') format('woff2'),
+    src: url('../fonts/VilaneRegular.woff2') format('woff2'),
+         url('../fonts/VilaneRegular.woff') format('woff'), /* Modern Browsers */
          url('../fonts/VilaneRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
     font-family: VilaneExtraLight;
-    src: url('../fonts/VilaneExtraLight.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/VilaneRegular.woff2') format('woff2'),
+    src: url('../fonts/VilaneExtraLight.woff2') format('woff2'),
+         url('../fonts/VilaneExtraLight.woff') format('woff'), /* Modern Browsers */
          url('../fonts/VilaneExtraLight.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 @font-face {
     font-family: VilaneThin;
-    src: url('../fonts/VilaneThin.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/VilaneRegular.woff2') format('woff2'),
+    src: url('../fonts/VilaneThin.woff2') format('woff2'),
+         url('../fonts/VilaneThin.woff') format('woff'), /* Modern Browsers */
          url('../fonts/VilaneThin.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 

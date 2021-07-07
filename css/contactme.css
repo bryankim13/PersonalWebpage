@@ -1,9 +1,48 @@
-.parallax {
+.banner {
+    /* The image used */
+    text-align: center;
+    background-image: url(../images/park.jpg);
+    /* Set a specific height */
+    min-height: 100vh; 
+    /* Create the parallax scrolling effect */
+    margin-bottom:5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner2 {
+    /* The image used */
+    text-align: center;
+    background-image: url(../images/bus.jpg);
+    /* Set a specific height */
+    min-height: 100vh; 
+    /* Create the parallax scrolling effect */
+    margin-bottom:5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner3 {
     /* The image used */
     text-align: center;
     background-image: url(../images/sunrise.jpg);
     /* Set a specific height */
-    min-height: 910px; 
+    min-height: 100vh; 
+    /* Create the parallax scrolling effect */
+    margin-bottom:5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax {
+    /* The image used */
+    text-align: center;
+    background-image: url(../images/car.jpeg);
+    /* Set a specific height */
+    min-height: 100vh; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -17,7 +56,7 @@
     justify-content: top;
     flex-direction: column;
     margin-left: 10%;
-    margin-top:-25%;
+    margin-top:-45%;
 }
 
 .emailButton{

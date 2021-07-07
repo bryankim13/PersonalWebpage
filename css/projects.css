@@ -1,5 +1,11 @@
+.text {
+  font-family: VilaneExtraLight;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 #projects{
-    margin-top:20%;
     display: flex;
     text-align: left;
     justify-content: center;
@@ -54,8 +60,3 @@
     text-align:center;
   }
 
-  .text {
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }

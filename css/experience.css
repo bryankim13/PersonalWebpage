@@ -6,32 +6,32 @@
     margin-left: 10%;
     margin-top:5%;
 }
-
 .jobs{
-    margin-top:8%;
     display: flex;
     /* justify-content: left; */
 }
 .jobpicture{
-       max-width:700px;
+       max-width:120%;
+       width: 100%;
+       height:auto;
        float:left;
-       margin-left: -50px;
        margin-top: 8%;
 }
 .perspectaBorder{
-    height:200px;
-    width: 450px;
-    margin-top:-33%;
-    margin-left:5%;
+    max-height:46%;
+    height:37%;
+    width: 105%;
+    margin-top:-38%;
+    margin-right:5%;
     border: 5px solid var(--main-yellow);
 }
 #perspectaPic{
-    max-width:85%;
+    max-width:100%;
 }
 
 .jobDesc{
-
     margin-left:6%;
+    margin-bottom:20%;
 }
 
 .jobDesc ul{

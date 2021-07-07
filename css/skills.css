@@ -1,16 +1,26 @@
 .bottomSkills{
-    margin : 0 auto;
-    margin-left:2%;
-
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
 }
+.skillHeading{
+    margin-right:5%;
+}
+
 .column-list {
-    columns: 340px;
-    text-align:center;
+    columns: 250px;
+    justify-content:center;  
     list-style-type :none;
+    margin-left:-5%;
+}
+.skill{
+    justify-content:center;
 }
 .skill .skilltxt {
     visibility: hidden;
-    width: 300px;
+    width: 20%;
     background-color: var(--main-skills);
     color: #fff;
     text-align: center;

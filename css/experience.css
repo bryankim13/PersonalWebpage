@@ -1,40 +1,44 @@
 #experience{
-    margin-top:20%;
     display: flex;
     text-align: left;
     justify-content: center;
     margin-left: 10%;
     margin-top:5%;
+    padding-bottom:5%;
 }
 .jobs{
     display: flex;
-    /* justify-content: left; */
+    justify-content: space-around;
+}
+@media only screen and (max-width: 1700px){
+    .jobs{
+        flex-wrap:wrap;
+    }
 }
 .jobpicture{
-       max-width:120%;
-       width: 100%;
-       height:auto;
-       float:left;
+       min-height:300px;
        margin-top: 8%;
+       margin-left:-5%;
+       padding:4%
 }
 .perspectaBorder{
-    max-height:46%;
-    height:37%;
-    width: 105%;
-    margin-top:-38%;
-    margin-right:5%;
+    width: 600px;
+    margin-top:-10%;
+    margin-right:25%;
     border: 5px solid var(--main-yellow);
 }
-#perspectaPic{
-    max-width:100%;
+.perspectaPic{
+    object-fit: cover;
+    width:600px;
+    max-height:250px;
+    min-width:400px;
 }
 
 .jobDesc{
     margin-left:6%;
-    margin-bottom:20%;
 }
 
-.jobDesc ul{
+.job1Desc ul{
     list-style-type: square;
     color: var(--main-yellow);
 }

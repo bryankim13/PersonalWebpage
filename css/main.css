@@ -158,8 +158,20 @@ About section
 justify-content: left;
 display: flex;
 }
+
+.aboutContainer{
+    justify-content: space-around;
+    display:flex;
+}
+@media only screen and (max-width: 1700px){
+    .aboutContainer{
+        flex-wrap:wrap;
+    }
+}
+
 .about_desc {
     text-align: left;
+    width:500px;
 }
 
 .about-picture{
